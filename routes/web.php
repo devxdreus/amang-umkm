@@ -34,33 +34,33 @@ Route::get('/franchise/tambah', function () {
 });
 
 Route::get('/signin', function () {
-    return view('signin');
+    return view('form.signin');
 });
 
 Route::get('/signup', function () {
-    return view('signup');
-});
-
-Route::get('/checkout_confirm', function () {
-    return view('checkout_confirm');
-});
-
-Route::get('/checkout', function () {
-    return view('checkout');
+    return view('form.signup');
 });
 
 Route::get('/form_mitra', function () {
-    return view('form_mitra');
+    return view('form.form_mitra');
 });
 
 Route::get('/list_merchant', function () {
-    return view('list_merchant');
-});
-
-Route::get('/mitra_merchant', function () {
-    return view('mitra_merchant');
+    return view('home.list_merchant');
 });
 
 Route::get('/product_detail', function () {
-    return view('product_detail');
+    return view('home.product_detail');
+});
+
+Route::get('/checkout_confirm', function () {
+    return view('productDetails.checkout_confirm');
+});
+
+Route::get('/checkout', function () {
+    return view('productDetails.checkout');
+});
+
+Route::get('/mitra_confirm', function () {
+    return view('productDetails.mitra_confirm');
 });
