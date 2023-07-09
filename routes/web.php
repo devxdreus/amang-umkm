@@ -53,6 +53,11 @@ Route::get('/profile', function () {
     return view('home.profile');
 });
 
+Route::get('/contact', function () {
+    return view('home.contact');
+});
+
+
 Route::get('/product_detail', function () {
     return view('productDetails.product_detail');
 });

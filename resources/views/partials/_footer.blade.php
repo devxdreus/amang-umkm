@@ -8,16 +8,16 @@
         </div>
         <div class="col-2">
             <span class="fs-5 fw-medium d-lg-inline-block mb-3">Account</span>
-            <p class="mb-1">My Account</p>
-            <p class="mb-1">Login / Register</p>
-            <p class="mb-1">Shop</p>
+            <a href="{{url('/profile')}}"><p class="mb-1">My Account</p></a>
+            <a href="{{url('/signin')}}"><p class="mb-1">Login</p></a>
+            <a href="{{url('/')}}"><p class="mb-1">Shop</p></a>
         </div>
         <div class="col-2">
             <span class="fs-5 fw-medium d-lg-inline-block mb-3">Quick Links</span>
             <p class="mb-1">Privacy Policy</p>
             <p class="mb-1">Terms of Use</p>
             <p class="mb-1">FAQ</p>
-            <p class="mb-1">Contact</p>
+            <a href="{{url('contact')}}"><p class="mb-1">Contact</p></a>
         </div>
         <div class="col-2">
             <span class="fs-5 fw-medium d-lg-inline-block mb-3">Social Media</span>

@@ -16,7 +16,7 @@
                           >
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="{{ url('signup') }}" style="font-weight: bold;">Contact</a>
+                          <a class="nav-link" href="{{ url('contact') }}" style="font-weight: bold;">Contact</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="{{ url('signup') }}" style="font-weight: bold;">About</a>

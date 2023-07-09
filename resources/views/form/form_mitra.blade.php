@@ -165,7 +165,7 @@
           </div>
           <div class="col-12">
             <a href="{{url('/mitra_confirm')}}"><button type="button" class="btn btn-primary">Kirim</button></a>
-            <button type="button" class="btn btn-outline-dark">Batal</button>
+            <a href="{{url('/')}}"><button type="button" class="btn btn-outline-dark">Batal</button></a>
           </div>
         </form>
       </div>
