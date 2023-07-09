@@ -9,7 +9,7 @@
 </head>
 
 <body>
-
+    
     @include('partials._header')
 
     <main class="container mt-3" style="height: 650px">
@@ -23,22 +23,16 @@
                 </div>
             </div>
             <div class="col-5 ps-4">
-                <h2>Buat Akun</h2>
-                <h7>Masukkan Data Diri</h7>
+                <h2>Log In to Amang UMKM</h2>
+                <h7>Masukkan Data Anda</h7>
                 <br><br>
                 <div class="form-group">
-                    <label for="nama">Nama:</label>
-                    <input type="text" class="form-control mb-3" id="nama" placeholder="Masukkan Nama">
-                    <label for="nama">Email:</label>
-                    <input type="text" class="form-control mb-3" id="email" placeholder="Masukkan Email">
-                    <label for="nama">Nomor Telpon:</label>
-                    <input type="text" class="form-control mb-3" id="nomorTelpon" placeholder="Masukkan Nomor Telpon">
+                    <label for="nama">Email atau Nomor Telpon:</label>
+                    <input type="text" class="form-control mb-3" id="username" placeholder="Masukkan Email atau Nomor Telpon">
                     <label for="nama">Password:</label>
                     <input type="text" class="form-control mb-3" id="password" placeholder="Masukkan Password">
-                    <label for="nama">Konfirmasi Password:</label>
-                    <input type="text" class="form-control mb-3" id="confirmPassword" placeholder="Masukkan Password">
                     <div class="gap-2">
-                        <a href="{{ url('/signin') }}" ><button type="button" class="btn btn-primary">Daftar</button></a>
+                        <a href="{{ url('/') }}"><button type="button" class="btn btn-primary">Login</button></a>
                     </div>
                 </div>
             </div>

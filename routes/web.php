@@ -49,8 +49,12 @@ Route::get('/list_merchant', function () {
     return view('home.list_merchant');
 });
 
+Route::get('/profile', function () {
+    return view('home.profile');
+});
+
 Route::get('/product_detail', function () {
-    return view('home.product_detail');
+    return view('productDetails.product_detail');
 });
 
 Route::get('/checkout_confirm', function () {
