@@ -19,7 +19,7 @@
                           <a class="nav-link" href="{{ url('contact') }}" style="font-weight: bold;">Contact</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="{{ url('signup') }}" style="font-weight: bold;">About</a>
+                      <a class="nav-link" href="{{ url('about') }}" style="font-weight: bold;">About</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="{{ url('signup') }}" style="font-weight: bold;">Sign Up</a>

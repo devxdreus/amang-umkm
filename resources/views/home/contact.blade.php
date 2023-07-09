@@ -24,7 +24,7 @@
                 <img
                   height="40"
                   width="40"
-                  src="call.jpg"
+                  src="https://i.postimg.cc/85vTvhML/call.jpg"
                   alt=""
                   class="me-3"
                 />
@@ -39,7 +39,7 @@
                 <img
                   height="40"
                   width="40"
-                  src="mail.jpg"
+                  src="https://i.postimg.cc/QCrhJHJw/mail.jpg"
                   alt=""
                   class="me-3"
                 />
@@ -53,9 +53,10 @@
               <h6>Email: amangumkm@gmail.com</h6>
             </div>
             <div class="col-lg-8">
+              <br />
               <form action="">
                 <div class="row">
-                  <div class="col">
+                  <div class="col-md-4">
                     <label for="namaContact" class="form-label">Nama</label>
                     <input
                       type="text"
@@ -64,7 +65,7 @@
                       required
                     />
                   </div>
-                  <div class="col">
+                  <div class="col-md-4">
                     <label for="emailContact" class="form-label">Email</label>
                     <input
                       type="text"
@@ -73,7 +74,7 @@
                       required
                     />
                   </div>
-                  <div class="col">
+                  <div class="col-md-4">
                     <label for="nomorTelepon" class="form-label"
                       >No. Telepon</label
                     >
@@ -107,7 +108,7 @@
           </div>
         </div>
       </div>
-    </main>
+    </main>
 
     @include('partials._footer')
 

@@ -57,6 +57,9 @@ Route::get('/contact', function () {
     return view('home.contact');
 });
 
+Route::get('/about', function () {
+    return view('home.about');
+});
 
 Route::get('/product_detail', function () {
     return view('productDetails.product_detail');
