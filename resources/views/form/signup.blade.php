@@ -12,7 +12,7 @@
 
     @include('partials._header')
 
-    <main class="container mt-3" style="height: 650px">
+    <main class="form-registration container mt-3" style="height: 650px">
         <section class="row pb-3 pt-3">
             <div class="col-7 border-end">
                 <div style="
@@ -26,21 +26,23 @@
                 <h2>Buat Akun</h2>
                 <h7>Masukkan Data Diri</h7>
                 <br><br>
+                <form action="/signin" method="POST">
                 <div class="form-group">
-                    <label for="nama">Nama:</label>
+                    <label for="nama">Nama</label>
                     <input type="text" class="form-control mb-3" id="nama" placeholder="Masukkan Nama">
-                    <label for="nama">Email:</label>
-                    <input type="text" class="form-control mb-3" id="email" placeholder="Masukkan Email">
-                    <label for="nama">Nomor Telpon:</label>
+                    <label for="nama">Email</label>
+                    <input type="email" class="form-control mb-3" id="email" placeholder="Masukkan Email">
+                    <label for="nama">Nomor Telpon</label>
                     <input type="text" class="form-control mb-3" id="nomorTelpon" placeholder="Masukkan Nomor Telpon">
-                    <label for="nama">Password:</label>
-                    <input type="text" class="form-control mb-3" id="password" placeholder="Masukkan Password">
-                    <label for="nama">Konfirmasi Password:</label>
-                    <input type="text" class="form-control mb-3" id="confirmPassword" placeholder="Masukkan Password">
+                    <label for="nama">Password</label>
+                    <input type="password" class="form-control mb-3" id="password" placeholder="Masukkan Password">
+                    <label for="nama">Konfirmasi Password</label>
+                    <input type="password" class="form-control mb-3" id="confirmPassword" placeholder="Masukkan Password">
                     <div class="gap-2">
-                        <a href="{{ url('/signin') }}" ><button type="button" class="btn btn-primary">Daftar</button></a>
+                        <button type="submit" class="btn btn-primary">Daftar</button>
                     </div>
                 </div>
+                </form>
             </div>
             </div>
         </section>

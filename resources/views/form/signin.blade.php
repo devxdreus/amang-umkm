@@ -26,15 +26,17 @@
                 <h2>Log In to Amang UMKM</h2>
                 <h7>Masukkan Data Anda</h7>
                 <br><br>
+                <form action="{{ url('/') }}" method="GET">
                 <div class="form-group">
                     <label for="nama">Email atau Nomor Telpon:</label>
                     <input type="text" class="form-control mb-3" id="username" placeholder="Masukkan Email atau Nomor Telpon">
                     <label for="nama">Password:</label>
                     <input type="text" class="form-control mb-3" id="password" placeholder="Masukkan Password">
                     <div class="gap-2">
-                        <a href="{{ url('/') }}"><button type="button" class="btn btn-primary">Login</button></a>
+                        <button type="submit" class="btn btn-primary">Login</button>
                     </div>
                 </div>
+                </form>
             </div>
             </div>
         </section>
