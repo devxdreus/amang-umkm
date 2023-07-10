@@ -26,7 +26,7 @@
                 <h2>Buat Akun</h2>
                 <h7>Masukkan Data Diri</h7>
                 <br><br>
-                <form action="/signin" method="POST">
+                <form action="/signin">
                 <div class="form-group">
                     <label for="nama">Nama</label>
                     <input type="text" class="form-control mb-3" id="nama" placeholder="Masukkan Nama">

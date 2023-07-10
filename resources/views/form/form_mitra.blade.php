@@ -25,7 +25,7 @@
           <span class="text-primary fw-bold">Menjadi Mitra Kami</span>
         </div>
         <br /><br />
-        <form class="row g-3">
+        <form class="row g-3" action="/mitra_confirm">
           <div class="col-md-6">
             <label for="namaBisnis" class="form-label">Nama Bisnis</label>
             <input type="text" class="form-control" id="namaBisnis" required />
@@ -164,7 +164,7 @@
             </div>
           </div>
           <div class="col-12">
-            <a href="{{url('/mitra_confirm')}}"><button type="button" class="btn btn-primary">Kirim</button></a>
+            <button type="button" class="btn btn-primary">Kirim</button>
             <a href="{{url('/')}}"><button type="button" class="btn btn-outline-dark">Batal</button></a>
           </div>
         </form>
