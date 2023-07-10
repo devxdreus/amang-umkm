@@ -76,3 +76,7 @@ Route::get('/checkout', function () {
 Route::get('/mitra_confirm', function () {
     return view('productDetails.mitra_confirm');
 });
+
+Route::get('/syarat_ketentuan', function () {
+    return view('form.syarat');
+});

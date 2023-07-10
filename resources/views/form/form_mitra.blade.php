@@ -131,10 +131,13 @@
               aria-label="Default select example"
               required
             >
-              <option selected>Kategori</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+              <option selected>-</option>
+              <option value="1">Food & Beverages</option>
+              <option value="2">Fashion</option>
+              <option value="3">Elektronik</option>
+              <option value="4">Kesehatan</option>
+              <option value="5">Kecantikan</option>
+              <option value="6">Olahraga</option>
             </select>
           </div>
           <div class="col-md-6">
@@ -156,16 +159,16 @@
               required
             />
             <label class="form-check-label" for="exampleCheck1"
-              >Menyetuji Syarat & Ketentuan yang ditetapkan oleh Amang
-              UMKM.</label
+              ><a href="{{url('/syarat_ketentuan')}}" class="nav-link">Menyetujui Syarat & Ketentuan yang ditetapkan oleh Amang
+              UMKM.</a></label
             >
             <div class="invalid-feedback">
               Kamu harus menyetujui syarat & ketentuan sebelum mengirim.
             </div>
           </div>
           <div class="col-12">
-            <button type="button" class="btn btn-primary">Kirim</button>
-            <a href="{{url('/')}}"><button type="button" class="btn btn-outline-dark">Batal</button></a>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+            <button type="button" class="btn btn-outline-dark">Batal</button>
           </div>
         </form>
       </div>
